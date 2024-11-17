@@ -93,7 +93,7 @@ body {
   flex-direction: column;
   background: var(--secondary);
   width: 26vw;
-  height: calc(100svh - 67px);
+  height: 100vh;
 }
 
 .image-container {
@@ -101,7 +101,7 @@ body {
   aspect-ratio: 1 / 1;
 }
 
- .profile-image {
+.profile-image {
   width: 100%;
 }
 
@@ -126,7 +126,6 @@ body {
   gap: 14px;
 }
 
-
 /* Tablet Break Points */
 @media (max-width: 768px) {
   .burger-button-container {
@@ -141,7 +140,7 @@ body {
     width: 100%;
     height: 100svh;
     transform: translateX(-1200px);
-    transition: all .3s linear;
+    transition: all 0.3s linear;
     z-index: 20;
   }
 
