@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com" crossorigin>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    >
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <div class="burger-button-container">
+        <button
+          type="button"
+          id="burgerButton"
+          class="burger-button"
+          aria-label="Toggle navigation"
+        >
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </button>
+      </div>
+      <nav class="nav-container" id="nav">
+        <ul class="nav-list-container" id="navListContainer">
+          <li class="nav-list-item"><a href="#aboutMe">About me</a></li>
+          <li class="nav-list-item"><a href="#skills">Skills</a></li>
+          <li class="nav-list-item"><a href="#languages">Languages</a></li>
+          <li class="nav-list-item"><a href="#education">Education</a></li>
+          <li class="nav-list-item"><a href="#contactSection">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main class="main-container">
+      <div class="left-container">
+        <div class="image-container">
+          <img
+            class="profile-image"
+            src="./assets/profile.JPG"
+            alt="profile-image">
+        </div>
+        <section class="section-container">
+          <h1 class="title">Mike Zakaryan</h1>
+          <span class="job-title">Front-End Developer</span>
+        </section>
+        <section class="section-container" id="contactSection">
+          <h2 class="title">Contact</h2>
+          <a
+            class="contact-info-item"
+            href="http://github.com/MikeZakaryan"
+            target="_blank">
+            My Github Profile</a>
+          <a class="contact-info-item" href="tel:+37455910369" target="_blank">
+            +374&nbsp;(55)&nbsp;910&nbsp;369</a>
+        </section>
+      </div>
+      <div class="right-container">
+        <section class="section-container" id="aboutMe">
+          <h2 class="dark-title">About me</h2>
+          <p>
+            While I’m starting my journey in tech, my enthusiasm and drive to
+            grow are what set me apart. I see every project as an opportunity to
+            learn something new, and I’m eager to contribute to the success of
+            any team I join. In addition to my work in development, I have a
+            strong personal interest in car tuning, I do it on the side but I
+            haven't focused on it fully. By continuously learning and applying
+            new technologies, I aim to bridge the gap between coding and car
+            tuning, building tools that enhance how people interact with their
+            vehicles. My enthusiasm, adaptability, and passion for both fields
+            will make me a valuable asset to any team, especially those working
+            at the intersection of technology and automotive industries.
+          </p>
+        </section>
+        <section class="section-container" id="skills">
+          <h2 class="dark-title">Skills</h2>
+          <ul class="list-container">
+            <li>Programming Languages: JavaScript, Python, HTML/CSS, Linux</li>
+            <li>Tools &amp; Technologies: Esys ultra</li>
+            <li>
+              Other: Car diagnostics, tuning/coding with bootmod3, mhd tuning
+            </li>
+          </ul>
+        </section>
+        <section class="section-container" id="languages">
+          <h2 class="dark-title">Languages</h2>
+          <ul class="list-container">
+            <li>English Proficiency Level: upper independent (B2)</li>
+            <li>Armenian: native</li>
+            <li>Arabic: intermediate</li>
+          </ul>
+        </section>
+        <section class="section-container" id="education">
+          <h2 class="dark-title">Education</h2>
+          <ul class="list-container">
+            <li>
+              Bachelor’s Degree in IT (Expected 2026), European University of
+              Armenia (EUA). <br>
+              Courses: Software Development, Data Structures, Algorithms, Web
+              Development, Database Management, Object-Oriented Programming.
+            </li>
+            <li>
+              Mechanical engineering (2022-2023), Jordan(AUM). <br>
+              Courses: Object-Oriented Programming, Revvit, Systems Modeling,
+              Graphic Design.
+            </li>
+            <li>
+              Russian University of Armenia (RAU) (2021)<br>
+              Courses: JS, HTML, CSS
+            </li>
+          </ul>
+        </section>
+      </div>
+    </main>
+    <script src="./script.js"></script>
+  </body>
+</html>
