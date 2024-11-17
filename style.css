@@ -1,6 +1,7 @@
 * {
   font-family: "Roboto", sans-serif;
   font-style: normal;
+  margin: 0;
 }
 
 :root {
@@ -26,7 +27,7 @@ body {
   flex-direction: column;
   justify-content: space-between;
   width: 30px;
-  height: 25px;
+  height: 24px;
   cursor: pointer;
   background: none;
   border: none;
@@ -68,9 +69,42 @@ body {
   display: flex;
 }
 
+.sction-container {
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.title {
+  color: var(--white);
+  font-size: 28px;
+  font-weight: bold;
+}
+
 .left-container {
   display: flex;
   flex-direction: column;
+  background: var(--secondary);
+  width: 26vw;
+  height: calc(100svh - 67px);
+}
+
+.image-container {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+}
+
+ .profile-image {
+  width: 100%;
+}
+
+.job-title {
+  color: var(--white);
+}
+
+.contact-info-item {
+  color: var(--white);
 }
 
 .right-container {
@@ -83,6 +117,7 @@ body {
 @media (max-width: 768px) {
   .burger-button-container {
     width: 100%;
+    top: 0;
     background: var(--secondary);
     z-index: 30;
   }
@@ -111,5 +146,13 @@ body {
     display: block;
     padding: 24px;
     position: fixed;
+  }
+
+  .main-container {
+    margin-top: 72px;
+  }
+
+  .left-container {
+    width: 100%;
   }
 }
