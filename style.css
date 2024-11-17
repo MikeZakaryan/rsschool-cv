@@ -119,7 +119,7 @@ body {
   width: 70vw;
 }
 
-.skills-list-container {
+.list-container {
   margin: 0;
   display: flex;
   flex-direction: column;
