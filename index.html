@@ -13,9 +13,33 @@
     <title>Document</title>
   </head>
   <body>
+    <header>
+      <div class="burger-button-container">
+        <button
+          class="burger-button"
+          id="burgerButton"
+          aria-expanded="false"
+          aria-label="Toggle navigation menu"
+        >
+          <div class="bar"></div>
+          <div class="bar"></div>
+          <div class="bar"></div>
+        </button>
+      </div>
+      <nav class="nav-container" id="nav">
+        <ul class="nav-list-container">
+          <li class="nav-list-item"><a href="#">About me</a></li>
+          <li class="nav-list-item"><a href="#">Skills</a></li>
+          <li class="nav-list-item"><a href="#">Languages</a></li>
+          <li class="nav-list-item"><a href="#">Education</a></li>
+          <li class="nav-list-item"><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
     <main class="main-container">
       <div class="left-container"></div>
       <div class="right-container"></div>
     </main>
+    <script src="./script.js"></script>
   </body>
 </html>
