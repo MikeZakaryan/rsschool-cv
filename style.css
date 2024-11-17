@@ -119,6 +119,13 @@ body {
   width: 70vw;
 }
 
+.skills-list-container {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
 
 /* Tablet Break Points */
 @media (max-width: 768px) {
