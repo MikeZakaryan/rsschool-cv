@@ -1,0 +1,33 @@
+* {
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+}
+
+:root {
+   --primary: #007ced;
+   --secondary: #222;
+   --light-gray: #aaa;
+   --white: #fff;
+   --layout-max-width: 1280px;
+   --tablet-break-point: 940px 
+}
+
+
+body {
+  background: var(--white);
+  max-width: var(--layout-max-width);  
+}
+
+.main-container {
+    display: flex;
+}
+
+.left-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.right-container {
+    display: flex;
+    flex-direction: column;
+}
